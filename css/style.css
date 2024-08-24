@@ -1,0 +1,93 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #fff022, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.sponsership{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+.sponsers{
+  height: 30px;
+  margin: 15px;
+}
+#features{
+  padding: 50px;
+}
+
+#pricing{
+  padding: 50px;
+  text-align: center;
+}
+
+.price-view{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+#premium{
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 730px){
+  #premium{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+a{
+  text-decoration: none;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+  background-color: #E9ECEF;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
